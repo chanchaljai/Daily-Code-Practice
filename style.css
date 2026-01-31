@@ -8,24 +8,55 @@ html,body{
     height: 100%;
     background-color: #111;
 }
-#box{
-    width: 200px;
-    height: 200px;
-    background-color: crimson;
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(235, 228, 228);
+    font-family: monospace;
+  
+    padding: 10px 30px;
 }
-@media (max-width: 700px) {
-    #box{
-        background-color: yellow;
-    }
-    body{
-        background-color: rgba(241, 233, 140, 0.688);
-    }
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
-@media (max-width: 500px) {
-    #box{
-        background-color: rgb(18, 8, 207);
+.nav1 h6{
+    font-size: 17px;
+    width: 50px;
+}
+img{
+    width: 30px;
+    height: 40px;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.nav2 h5{
+    font-size: 20px;
+    display: none;
+    
+}
+@media (max-width:600px) {
+    nav{
+      background-color: darkcyan;
     }
-    body{
-        background-color: rgb(231, 227, 247);
+    .nav1 h6{
+        font-size: 11px;
+    }
+    .nav1 img{
+        height: 38px;
+    }
+    .nav2 h4{
+        display: none;
+    }
+    .nav2 h5{
+        display: block;
     }
 }
