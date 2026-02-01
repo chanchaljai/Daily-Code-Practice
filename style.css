@@ -14,7 +14,7 @@ nav{
     justify-content: space-between;
     color: rgb(235, 228, 228);
     font-family: monospace;
-  
+    font-weight: 100;
     padding: 10px 30px;
 }
 .nav1{
@@ -22,14 +22,15 @@ nav{
     align-items: center;
     justify-content: center;
     gap: 10px;
+  
 }
 .nav1 h6{
     font-size: 17px;
-    width: 50px;
+   
 }
 img{
-    width: 30px;
-    height: 40px;
+    width: 50px;
+    height: 60px;
 }
 .nav2{
     display: flex;
@@ -43,15 +44,18 @@ img{
     display: none;
     
 }
-@media (max-width:600px) {
+@media (max-width:555px) {
     nav{
-      background-color: darkcyan;
+        padding: 10px;
     }
+    
     .nav1 h6{
         font-size: 11px;
     }
     .nav1 img{
+        width: 30px;
         height: 38px;
+
     }
     .nav2 h4{
         display: none;
