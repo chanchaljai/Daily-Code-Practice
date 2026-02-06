@@ -1,155 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Segoe UI", sans-serif;
+body {
+  font-family: Arial;
+  background: #f2f2f2;
 }
 
-body{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+.container {
+  width: 300px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
 }
 
-/* Main Container */
-.container{
-    width: 800px;
-    height: 450px;
-    background: #ffffff;
-    border-radius: 15px;
-    display: flex;
-    overflow: hidden;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+button {
+  padding: 5px 10px;
+  margin-left: 5px;
 }
 
-/* Left Panel */
-.left{
-    width: 50%;
-    background: linear-gradient(135deg, #43cea2, #185a9d);
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-    text-align: center;
-}
-
-.left h2{
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-.left p{
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-
-.left button{
-    padding: 10px 25px;
-    border: none;
-    border-radius: 25px;
-    background: #ffffff;
-    color: #185a9d;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-/* Right Panel */
-.right{
-    width: 50%;
-    padding: 40px;
-}
-
-.right h2{
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-/* Form Styling */
-form{
-    display: flex;
-    flex-direction: column;
-}
-
-input{
-    margin: 10px 0;
-    padding: 12px;
-    border-radius: 25px;
-    border: 1px solid #cccccc;
-    outline: none;
-}
-
-form button{
-    margin-top: 15px;
-    padding: 12px;
-    border: none;
-    border-radius: 25px;
-    background: #667eea;
-    color: #ffffff;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-/* Hide Signup Form Initially */
-.signup{
-    display: none;
-}
-
-/* Tablet View */
-@media (max-width: 900px) {
-    .container{
-        width: 90%;
-        height: auto;
-        flex-direction: column;
-    }
-
-    .left,
-    .right{
-        width: 100%;
-        height: auto;
-    }
-
-    .left{
-        padding: 30px 20px;
-    }
-
-    .right{
-        padding: 30px 20px;
-    }
-}
-
-/* Mobile View */
-@media (max-width: 480px) {
-    body{
-        padding: 20px;
-    }
-
-    .container{
-        border-radius: 10px;
-    }
-
-    .left h2{
-        font-size: 22px;
-    }
-
-    .left p{
-        font-size: 13px;
-    }
-
-    .right h2{
-        font-size: 22px;
-    }
-
-    input{
-        padding: 10px;
-        font-size: 14px;
-    }
-
-    form button{
-        padding: 10px;
-        font-size: 14px;
-    }
+li {
+  margin-top: 10px;
+  cursor: pointer;
 }
