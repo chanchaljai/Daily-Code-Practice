@@ -1,3 +1,3 @@
-let p = 4;
-let q = ++p;
-console.log(p,q);
+let score = 25;
+let grade = score >=90 ? "A" : score>=75 ? "B" : score >= 60? "C" : "Fail";
+console.log(grade);
