@@ -1,5 +1,7 @@
 // 1 t0 100 print
 
-for (let i =1; i<=100; i++){
-    console.log(i);
+let i = 1
+while(i<=45){
+    console.log(i)
+    i++;
 }
