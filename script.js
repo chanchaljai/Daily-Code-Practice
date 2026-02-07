@@ -1,15 +1,20 @@
 function getGrade(score) {
     if (score >= 90 && score <= 100) {
-        console.log("A+");
+        return "A+";
     } else if (score >= 75 && score < 90) {
-        console.log("B")
-    } else if (score >=60 && score < 75) {
-        console.log("C")
+        return "B";
+    } else if (score >= 60 && score < 75) {
+        return "C";
+    } else if (score >= 45 && score < 60) {
+        return "D";
+    } else if (score >= 0 && score < 45) {
+        return "Fail";
     } else {
-        console.log("D")
+        return "Invalid Marks"
     }
-        
-    
+ 
+
+
 
 }
-getGrade(81);
+console.log(getGrade(91));
