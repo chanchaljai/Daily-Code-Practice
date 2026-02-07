@@ -1,8 +1,3 @@
-// 1 t0 100 print
-
-let i = 1
-do {
+for(let i=10; i>=1; i--){
     console.log(i);
-    i++
 }
-while(i <=100)
