@@ -1,5 +1,2 @@
-for(let i=1; i<=10; i++){
-    console.log(`5 * ${i} = ${5 * i}`);
-  
-    
-}
+let h1 = document.querySelector("h1");
+console.dir(h1);
