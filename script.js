@@ -1,2 +1,2 @@
-let h1 = document.querySelector("h1");
-h1.textContent = "Hello Jai Kaise Ho";
+let a = document.querySelector("a");
+a.setAttribute("href", "httsp://www.google.com");
