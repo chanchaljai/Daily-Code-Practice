@@ -1,3 +1,6 @@
-let h1 = document.querySelector("h1");
-// add/ remove class
-h1.classList.remove("hulu");
+//Select all <li> elements and print their text using a loop.
+
+let lis = document.querySelectorAll("li");
+lis.forEach(function(val){
+    console.log(val.textContent);
+});
