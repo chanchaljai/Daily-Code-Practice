@@ -1,3 +1,4 @@
-// text change by <b> update<b> by javascript
-let p = document.querySelector("p");
-p.innerHTML = "<b>Update</b> by javaScript";
+let h1 = document.querySelector("h1");
+h1.addEventListener("click", function(){
+    h1.style.color = "red";
+});
