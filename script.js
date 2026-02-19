@@ -1,4 +1,6 @@
 let p = document.querySelector("p");
-p.addEventListener("dblclick", function(){
-    p.style.color = "red"
-});
+function dblclick (){
+    p.style.color = "red";
+}
+p.addEventListener("dblclick", dblclick);
+p.removeEventListener("dblclick",dblclick);
