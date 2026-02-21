@@ -1,4 +1,7 @@
-let input = document.querySelector("input");
-input.addEventListener("input", function(evt){
-    console.log(evt.data);
+let inp = document.querySelector("input");
+inp.addEventListener("input", function(evt){
+    if(evt.data !== null){
+        console.log(evt.data);
+    }
 });
+  
