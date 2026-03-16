@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "backend",
+=======
+  "name": "practice",
+>>>>>>> f64fd72 (session and cookies in express generator)
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,7 +14,13 @@
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
     "express": "~4.16.1",
+<<<<<<< HEAD
     "http-errors": "~1.6.3",
+=======
+    "express-session": "^1.19.0",
+    "http-errors": "~1.6.3",
+    "mongoose": "^9.3.0",
+>>>>>>> f64fd72 (session and cookies in express generator)
     "morgan": "~1.9.1"
   }
 }

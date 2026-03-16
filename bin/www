@@ -5,7 +5,11 @@
  */
 
 var app = require('../app');
+<<<<<<< HEAD
 var debug = require('debug')('backend:server');
+=======
+var debug = require('debug')('practice:server');
+>>>>>>> f64fd72 (session and cookies in express generator)
 var http = require('http');
 
 /**
